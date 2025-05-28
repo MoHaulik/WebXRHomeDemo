@@ -1,7 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Define static links with smart thumbnail file names (host these in your GitHub repo under "thumbnails/")
   const staticLinks = [
-    // Video category
+    // Video category - nye først
+    {
+      id: 9,
+      title: "I Scanner",
+      url: "https://mohaulik.github.io/herlevdemo28/",
+      category: "video",
+      thumbnail: "thumbnails/CT.jpg"
+    },
     {
       id: 1,
       title: "Tegnefilm",
@@ -16,7 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
       category: "video",
       thumbnail: "thumbnails/natur.jpg"
     },
-    // Spil category
+    // Spil category - nye først
+    {
+      id: 10,
+      title: "Krystalbanen",
+      url: "https://mohaulik.github.io/Lanedemohervel28/",
+      category: "spil",
+      thumbnail: "thumbnails/Krystal.jpg"
+    },
     {
       id: 3,
       title: "Bue og Pil",
